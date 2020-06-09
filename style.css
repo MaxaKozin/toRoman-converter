@@ -1,0 +1,56 @@
+body {
+  display: flex;
+  font-family: sans-serif;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 16px;
+  background-color: #cccccc;
+}
+
+h2 {
+  font-family: sans-serif;
+  margin-bottom: 10rem;
+  font-weight: normal;
+  font-style: italic;
+}
+
+body > input {
+  border-radius: 1rem;
+  outline: none;
+  background: #eee;
+}
+
+input:focus {
+  border-color: #5555aa;
+}
+
+#arab {
+  width: 50vw;
+  height: 10vh;
+  padding: 1rem;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+
+#arab::placeholder {
+  color: #555555;
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+#roman {
+  width: 50vw;
+  height: 10vh;
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+#roman::placeholder {
+  font-size: 1.5rem;
+  color: #555555;
+  font-style: italic;
+}
